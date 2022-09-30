@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import HeaderItem from "./HeaderItem";
 import {
@@ -26,6 +25,7 @@ const Header = () => {
         src="https://links.papareact.com/ua6"
         width={180}
         height={80}
+        alt="/#"
       />
     </header>
   );
